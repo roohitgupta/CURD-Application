@@ -9,7 +9,7 @@ var employeeSchema = new mongoose.Schema({
         type: String
     },
     mobile: {
-        type: String
+        type: Number
     },
     city: {
         type: String

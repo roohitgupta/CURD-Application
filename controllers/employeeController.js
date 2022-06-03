@@ -68,7 +68,7 @@ router.get('/list', (req, res) => {
         else {
             console.log('Error in retrieving employee list :' + err);
         }
-    });
+    }).lean();
 });
 
 
